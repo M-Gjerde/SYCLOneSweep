@@ -12,8 +12,6 @@ Welcome to the SYCL implementation of Nvidia's OneSweep! This project is an open
 ## Getting Started
 
 ### Prerequisites
-
-- Nvidia RTX 4090 GPU (or other compatible GPUs)
 - SYCL-compatible compiler (e.g., Intel DPC++, Codeplay ComputeCpp)
 - CMake (for building the project)
 
