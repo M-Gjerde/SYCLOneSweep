@@ -21,8 +21,8 @@ Welcome to the SYCL implementation of Nvidia's OneSweep! This project is an open
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/sycl-onesweep.git
-   cd sycl-onesweep
+   git clone https://github.com/M-Gjerde/SYCLOneSweep
+   cd SYCLOneSweep
    mkdir build
    cd build
    cmake ..
