@@ -104,9 +104,10 @@
     <section id="features">
         <h2>Features</h2>
         <ul>
-            <li>Feature 1: Describe your first feature here.</li>
-            <li>Feature 2: Describe your second feature here.</li>
-            <li>Feature 3: Describe your third feature here.</li>
+            <li><strong>Blazing Fast Performance</strong>: Achieves sorting of 1 billion (2^30) 32-bit key/value pairs in just 0.17 seconds (5.88 GKeys/s) on Nvidia RTX 4090. (Slightly slower than CUDA implementation, but optimizations can still be done)</li>
+            <li><strong>Open Source</strong>: Completely free to use and modify under the MIT license.</li>
+            <li><strong>SYCL Compatibility</strong>: Leverages SYCL for cross-platform compatibility and future-proofing.</li>
+            <li><strong>Efficient Resource Usage</strong>: Optimized to make the most of GPU resources without requiring proprietary CUDA libraries.</li>
         </ul>
     </section>
 
@@ -114,9 +115,14 @@
         <h2>Installation</h2>
         <p>Instructions for installing the project.</p>
         <pre>
-git clone https://github.com/M-Gjerde/SYCLOneSweep.git
-cd SYCLOneSweep
-make install
+   git clone https://github.com/M-Gjerde/SYCLOneSweep
+   cd SYCLOneSweep
+   mkdir build
+   cd build
+   cmake ..
+   make
+
+
             </pre>
     </section>
 
@@ -124,8 +130,9 @@ make install
         <h2>Usage</h2>
         <p>Instructions on how to use the project.</p>
         <pre>
-./syclone_sweep input_file
+   ./onesweep_sycl
             </pre>
+        <p>Change number of keys or other settings in the main.cpp file and rebuild</p>
     </section>
 </section>
 
