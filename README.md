@@ -2,6 +2,9 @@
 
 Welcome to the SYCL implementation of Nvidia's OneSweep! This project is an open-source, high-performance implementation designed to efficiently sort 1 billion 32-bit key/value pairs using Nvidia's RTX 4090 GPU.
 
+
+Page: https://m-gjerde.github.io/SYCLOneSweep
+
 ## Highlights
 
 - **Blazing Fast Performance**: Achieves sorting of 1 billion (2^30) 32-bit key/value pairs in just 0.17 seconds (5.88 GKeys/s) on Nvidia RTX 4090. (Slightly slower than cuda implementation, but optimizations can still be done)
